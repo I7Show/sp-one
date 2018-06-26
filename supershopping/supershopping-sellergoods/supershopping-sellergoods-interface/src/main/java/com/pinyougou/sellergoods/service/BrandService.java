@@ -11,4 +11,6 @@ import java.util.List;
  */
 public interface BrandService {
     List<TbBrand> queryAll();
+
+    List<TbBrand> testPage(Integer page, Integer rows);
 }
