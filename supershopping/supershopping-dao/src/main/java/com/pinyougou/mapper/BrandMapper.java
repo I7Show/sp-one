@@ -11,5 +11,4 @@ import java.util.List;
  * Email  : Z9Show@163.com
  */
 public interface BrandMapper extends Mapper<TbBrand> {
-    List<TbBrand> queryAll();
 }

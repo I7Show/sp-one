@@ -22,7 +22,7 @@ public class BrandServiceImpl implements BrandService {
 
     @Override
     public List<TbBrand> queryAll() {
-        return brandMapper.queryAll();
+        return brandMapper.selectAll();
     }
 
     @Override
